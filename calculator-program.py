@@ -25,23 +25,28 @@ print("Please select the operation: \n"
 #Taking input from the user
 select = int(input("Select operations from 1, 2, 3, 4 : "))
 
-number_1 = int(input("Enter first number: "))
-number_2 = int(input("Enter second number: "))
-
 if select==1:
+    number_1 = int(input("Enter first number: "))
+    number_2 = int(input("Enter second number: "))
     print(number_1, "+", number_2, "=", add(number_1, number_2))
 
 elif select==2:  
+    number_1 = int(input("Enter first number: "))
+    number_2 = int(input("Enter second number: "))
     print(number_1, "-", number_2, "=", subtract(number_1, number_2))
 
 elif select==3:  
+    number_1 = int(input("Enter first number: "))
+    number_2 = int(input("Enter second number: "))
     print(number_1, "*", number_2, "=", multiply(number_1, number_2))
 
 elif select==4: 
+    number_1 = int(input("Enter first number: "))
+    number_2 = int(input("Enter second number: "))
     if(number_2==0):
         print("Invalid Divisor")
     else:    
      print(number_1, "/", number_2, "=", divide(number_1, number_2))
 
 else:
-    print("Invalid input")
+  print("Invalid input")
